@@ -1,0 +1,44 @@
+<div class="container">
+  <form id="create-event-form">
+    <div class="input-wrapper">
+      <label for="eventType">Name of the event</label>
+      <input type="text" id="eventType" name="eventType" />
+    </div>
+    <div class="input-wrapper">
+      <label for="participants">Participants</label>
+      <select id="participants"
+              name="participants"
+              class="selectpicker"
+              multiple>
+        <option value="Maria">Maria</option>
+        <option value="Bob">Bob</option>
+      </select>
+    </div>
+    <div class="input-wrapper">
+      <label for="day">Day</label>
+      <select id="day" name="day" class="selectpicker">
+        <option value="mon">Monday</option>
+        <option value="tue">Tuesday</option>
+        <option value="wed">Wednesday</option>
+        <option value="thu">Thursday</option>
+        <option value="fri">Friday</option>
+      </select>
+    </div>
+    <div class="input-wrapper">
+      <label for="time">Time</label>
+      <select id="time" name="time" class="selectpicker">
+        <option value="10">10:00</option>
+        <option value="11">11:00</option>
+        <option value="12">12:00</option>
+        <option value="13">13:00</option>
+        <option value="14">14:00</option>
+        <option value="15">15:00</option>
+        <option value="16">16:00</option>
+        <option value="17">17:00</option>
+        <option value="18">18:00</option>
+      </select>
+    </div>
+    <a id="event-form-cancel" href="#" type="reset" class="btn btn-secondary">Cancel</a>
+    <a id="event-form-submit" href="#" type="submit" class="btn btn-primary">Create</a>
+  </form>
+</div>
