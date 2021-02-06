@@ -1,0 +1,10 @@
+td, th {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+.cell:hover {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
