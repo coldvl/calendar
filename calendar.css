@@ -1,7 +1,8 @@
-td, th {
+td, .calendar-header {
   border: 1px solid black;
-  width: 100px;
+  width: 150px;
   text-align: center;
+  height: 50px;
 }
 
 .cell:hover {
