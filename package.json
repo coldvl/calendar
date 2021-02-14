@@ -1,0 +1,18 @@
+{
+  "name": "ciklum-calendar",
+  "version": "0.0.1",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14.7"
+  },
+  "repository": "git://github.com/coldvl/calendar.git",
+  "scripts": {
+    "start": "webpack --config webpack.config.js && live-server .",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
