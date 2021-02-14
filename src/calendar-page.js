@@ -31,7 +31,7 @@ export const renderCalendarPage = (renderCreateEventPage, redirectToCalendar) =>
   ).then(
     (calendarPageTemplate) => {
       const container = document.getElementById('content-container')
-      window.history.replaceState({}, 'Calendar', 'calendar.html');
+      window.history.replaceState({}, 'Calendar', '/');
       container.innerHTML = calendarPageTemplate
       $('.selectpicker').selectpicker();
       subscribeToCalendarPageEvents(clickFunction);
